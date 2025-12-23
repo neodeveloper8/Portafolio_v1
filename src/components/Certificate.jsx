@@ -27,7 +27,7 @@ const Certificate = ({ ImgSertif }) => {
 					transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
 					"&:hover": {
 						transform: "translateY(-5px)",
-						boxShadow: "0 12px 24px rgba(0,0,0,0.2)",
+						boxShadow: "0 12px 24px rgba(16, 185, 129, 0.15)",
 						"& .overlay": {
 							opacity: 1,
 						},
@@ -104,7 +104,8 @@ const Certificate = ({ ImgSertif }) => {
 							sx={{
 								fontSize: 40,
 								mb: 1,
-								filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.2))",
+								color: "#10b981",
+								filter: "drop-shadow(0 0 8px rgba(16, 185, 129, 0.5))",
 							}}
 						/>
 						<Typography
@@ -112,6 +113,9 @@ const Certificate = ({ ImgSertif }) => {
 							sx={{
 								fontWeight: 600,
 								textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+								background: "linear-gradient(to right, #6EE7B7, #06B6D4)",
+								WebkitBackgroundClip: "text",
+								WebkitTextFillColor: "transparent",
 							}}>
 							View Certificate
 						</Typography>

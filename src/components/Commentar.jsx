@@ -128,7 +128,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                     value={userName}
                     onChange={(e) => setUserName(e.target.value)}
                      maxLength={15}
-                    placeholder="Enter your name"
+                    placeholder="Ingresa tu nombre"
                     className="w-full p-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all"
                     required
                 />
@@ -144,7 +144,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                      maxLength={200}
 
                     onChange={handleTextareaChange}
-                    placeholder="Write your message here..."
+                    placeholder="Escribe tu mensaje aquí..."
                     className="w-full p-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all resize-none min-h-[120px]"
                     required
                 />
@@ -190,10 +190,10 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                                 className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-indigo-500/20 text-indigo-400 hover:bg-indigo-500/30 transition-all border border-dashed border-indigo-500/50 hover:border-indigo-500 group"
                             >
                                 <ImagePlus className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                                <span>Choose Profile Photo</span>
+                                <span>Elegir foto de perfil</span>
                             </button>
                             <p className="text-center text-gray-400 text-sm mt-2">
-                                Max file size: 5MB
+                                Tamaño máximo: 5MB
                             </p>
                         </div>
                     )}
@@ -211,12 +211,12 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                     {isSubmitting ? (
                         <>
                             <Loader2 className="w-4 h-4 animate-spin" />
-                            <span>Posting...</span>
+                            <span>Publicando...</span>
                         </>
                     ) : (
                         <>
                             <Send className="w-4 h-4" />
-                            <span>Post Comment</span>
+                            <span>Publicar Comentario</span>
                         </>
                     )}
                 </div>
