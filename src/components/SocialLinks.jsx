@@ -8,7 +8,7 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// 1. CONFIGURACIÓN DE TUS REDES REALES
+// 1. CONFIGURACIÓN DE REDES SOCIALES
 const socialLinks = [
   {
     name: "LinkedIn",

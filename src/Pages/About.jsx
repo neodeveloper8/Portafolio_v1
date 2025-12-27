@@ -214,9 +214,11 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-             Apasionado por el desarrollo Frontend con un enfoque en crear interfaces limpias, 
-              intuitivas y de alto rendimiento. Me dedico a transformar ideas complejas en experiencias 
-              digitales que conecten con las personas, utilizando las últimas tecnologías del ecosistema web.
+             Especialista en construir el puente entre una interfaz impecable y una arquitectura de servidor sólida. 
+              No solo escribo código; diseño experiencias digitales donde el **Frontend vibrante** se encuentra con 
+              un **Backend eficiente**. Con dominio en el ecosistema de React y la potencia de Node.js, me enfoco en 
+              crear soluciones escalables que no solo funcionan a la perfección, sino que también cuentan una historia 
+              a través de cada interacción.
             </p>
 
                {/* Quote Section */}

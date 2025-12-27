@@ -53,7 +53,7 @@ const myProjects = [
 ];
 
 // ==========================================
-// 2. TUS CERTIFICADOS (Edita aquí)
+// 2. CERTIFICADOS
 // ==========================================
 const myCertificates = [
   { id: 1, Img: "/CERTIFICADO_excel.png" },

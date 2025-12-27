@@ -5,15 +5,15 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import nuevaAnimacion from "../assets/csmanimmation.lottie";
 // ==========================================
-// CONFIGURACIÓN DE TU INFORMACIÓN
-// Modifica estos valores con tus datos reales
+// CONFIGURACIÓN DE  INFORMACIÓN
+// 
 // ==========================================
-const WORDS = ["Desarrollador Frontend", "Estudiante de Tecnología", "Entusiasta del Tech"];
+const WORDS = ["Desarrollador Fullstack", "Estudiante de Tecnología", "Entusiasta del Tech"];
 const TECH_STACK = ["React", "JavaScript", "Tailwind", "Node.js"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/neodeveloper8" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/gonzalo-alonso-sierra-tapia-62571a21b/" },
-  { icon: Instagram, link: "https://www.instagram.com/gonzalos8/" }
+  { icon: Instagram, link: "https://www.instagram.com/gonzalos  8/" }
 ];
 const DESCRIPTION = "Creando soluciones digitales innovadoras, funcionales y centradas en el usuario.";
 // ==========================================
@@ -39,7 +39,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          Fullstack
         </span>
       </span>
       <br />
