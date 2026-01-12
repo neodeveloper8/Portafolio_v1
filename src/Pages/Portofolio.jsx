@@ -49,7 +49,24 @@ const myProjects = [
     Github: "https://github.com/neodeveloper8/FoodScrapAPI.git",
     TechStack: [".NET 8", "SQL", "Swagger","Git","ClosedXML" ],
     Features: ["Registro e inicio de sesión de usuarios", "Protección de endpoints mediante JWT", "CRUD de platos asociados a restaurantes", "Visualizacion detallada con precios y descripcion","Asociacion por categorias","Filtro de categorias","Comparacion de platos","Visualizacion de precios y restaurantes"]
-  }
+  },
+
+  {
+    id: 4,
+    Title: "Full Stack ERP System",
+    Description: "Sistema de planificación de recursos empresariales (ERP) diseñado para centralizar la gestión de inventarios y usuarios. Implementa una arquitectura moderna Monorepo que integra el CMS directamente en la aplicación para eliminar latencia.",
+    Img: "/payload.png", // 📸 
+    Link: "https://erp-gonzalo-sierra.vercel.app/", // l
+    Github: "https://github.com/neodeveloper8/PayloadCMS1.git", // 
+    TechStack: ["Next.js 14", "Payload CMS 3.0", "TypeScript", "MongoDB", "Tailwind CSS"],
+    Features: [
+      "Arquitectura Monorepo (Frontend + Backend unificados)",
+      "Autenticación segura via HttpOnly Cookies",
+      "Control de Acceso Basado en Roles (RBAC: Admin vs User)",
+      "Panel administrativo autogenerado y API RESTful",
+      "Persistencia de datos en la nube con MongoDB Atlas"
+    ]
+}
 ];
 
 // ==========================================
